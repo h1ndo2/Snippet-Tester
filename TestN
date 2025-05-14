@@ -10,7 +10,7 @@ Library.ForceCheckbox = false
 Library.ShowToggleFrameInKeybinds = true
 
 local Window = Library:CreateWindow({
-    Title = "snippet",
+    Title = "Snippet",
     Footer = "",
     Icon = nil,
     NotifySide = "Right",
@@ -31,7 +31,7 @@ local Tabs = {
 --CREDITS
 
 local CreditsGroupBox = Tabs.Credits:AddLeftGroupbox("Credits")
-CreditsGroupBox:AddLabel("Created by Nexity Team", true)
+CreditsGroupBox:AddLabel("Created by Snippet Team", true)
 CreditsGroupBox:AddLabel("Developed By h1ndo2 🔥", true)
 
 local ExecutorGroupBox = Tabs.Credits:AddRightGroupbox("Executor Info")
