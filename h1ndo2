@@ -369,9 +369,9 @@ local studioAutoFarmToggle = AutoFarmGroupBox:AddToggle("StudioAutoFarm", {
 local XenoMoneyGroupBox = Tabs.Main:AddRightGroupbox("Inf Money")
 
 XenoMoneyGroupBox:AddLabel("Steps:", true)
-XenoMoneyGroupBox:AddLabel("1. buy the stuff", true)
+XenoMoneyGroupBox:AddLabel("1. Buy Kool Aid Items", true)
 XenoMoneyGroupBox:AddLabel("2. Cook them", true)
-XenoMoneyGroupBox:AddLabel("3. Then click on inf money", true)
+XenoMoneyGroupBox:AddLabel("3. Click On Inf Money", true)
 
 
 XenoMoneyGroupBox:AddButton({
